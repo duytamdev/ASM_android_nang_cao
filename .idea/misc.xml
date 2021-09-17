@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/_FPTPoly/HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_main.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/menu/nav_bottom.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/drawable/bg_blue_gradient_conner_8.xml" value="0.27291666666666664" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/drawable/bg_conner_8.xml" value="0.27291666666666664" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/action_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_flash.xml" value="0.2518518518518518" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_my_course.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_read_news.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/fragment_course.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/fragment_maps.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/fragment_news.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/news_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/slider_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/menu/nav_bottom.xml" value="0.2518518518518518" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
