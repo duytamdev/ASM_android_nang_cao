@@ -5,18 +5,38 @@
       <map>
         <entry key="..\:/_FPTPoly/HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_main.xml" value="0.25677083333333334" />
         <entry key="..\:/_FPTPoly/HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/menu/nav_bottom.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/drawable-v24/bg_white_conner_8.xml" value="0.27291666666666664" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/drawable/bg_blue_gradient_conner_8.xml" value="0.27291666666666664" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/drawable/bg_conner_8.xml" value="0.27291666666666664" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/drawable/bg_delete_toast.xml" value="0.26564102564102565" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/drawable/bg_gray_conner_64.xml" value="0.4" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/drawable/bg_ok_toast.xml" value="0.26564102564102565" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/drawable/bg_white_conner_64.xml" value="0.27291666666666664" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/a.xml" value="0.25364583333333335" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/action_item.xml" value="0.25677083333333334" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_flash.xml" value="0.2518518518518518" />
-        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_main2.xml" value="0.11614583333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_main222.xml" value="0.13020833333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_maps.xml" value="0.25677083333333334" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_my_course.xml" value="0.25677083333333334" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_read_news.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_register.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_register_coure.xml" value="0.264" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/activity_schedule.xml" value="0.22037037037037038" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/add_schedule_dialog.xml" value="0.4" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/course_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/course_item2.xml" value="0.4" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/fragment_account.xml" value="0.25677083333333334" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/fragment_course.xml" value="0.25677083333333334" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/fragment_maps.xml" value="0.25677083333333334" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/fragment_news.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/layout_custom_toast.xml" value="0.25364583333333335" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/news_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/register_course_dialog.xml" value="0.2528205128205128" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/schedule_item.xml" value="0.264" />
+        <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/schedule_item2.xml" value="0.24974358974358973" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/layout/slider_item.xml" value="0.25677083333333334" />
         <entry key="..\:/_FPTPoly/_HK4/AndroidNangCao/_Offical/ASM/app/src/main/res/menu/nav_bottom.xml" value="0.2518518518518518" />
       </map>

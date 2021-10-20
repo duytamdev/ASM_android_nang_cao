@@ -4,17 +4,18 @@
     android:padding="8dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent">
+
     <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="8dp"
-        android:textStyle="bold"
         android:fontFamily="@font/robotomedium"
+        android:text="Have a good day,"
         android:textSize="22sp"
-        android:id="@+id/tv_hello"
-        android:text="Have a lucky day,"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textStyle="bold" />
     <com.smarteist.autoimageslider.SliderView
         android:id="@+id/sliderView"
         android:layout_below="@id/tv_hello"
@@ -36,11 +37,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/sliderView"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="18dp"
         android:fontFamily="@font/robotomedium"
         android:text="Bạn Cần Gì ?"
+        android:textColor="@color/design_default_color_primary"
         android:textSize="25sp"
         android:textStyle="bold" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,16 +68,17 @@
             android:layout_alignEnd="@id/iv_action_course_register_course"
             android:fontFamily="@font/robotomedium"
             android:gravity="center"
-            android:text="Đăng kí khóa học"
+            android:text="Đăng kí học"
             android:textSize="18sp" />
+
         <ImageView
-            android:layout_marginEnd="40dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignTop="@id/iv_action_course_register_course"
             android:id="@+id/iv_action_course_registered"
-            android:src="@drawable/ic_read_90"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iv_action_course_register_course"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:src="@drawable/ic_read_90" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -83,7 +88,7 @@
             android:layout_alignEnd="@id/iv_action_course_registered"
             android:fontFamily="@font/robotomedium"
             android:gravity="center"
-            android:text="Khóa học của tôi"
+            android:text="Lớp học của tôi"
             android:textSize="18sp" />
 
         <ImageView

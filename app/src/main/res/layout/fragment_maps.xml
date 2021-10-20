@@ -1,8 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:background="@color/teal_700"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+    android:background="@color/background_white"
     android:layout_height="match_parent">
+    <fragment
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <com.arlib.floatingsearchview.FloatingSearchView
+        android:layout_marginHorizontal="4dp"
+        android:id="@+id/search_location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:floatingSearch_searchHint="Tôi muốn đến ..."
+        app:floatingSearch_suggestionsListAnimDuration="250"
+        app:floatingSearch_showSearchKey="true"
+        app:floatingSearch_leftActionMode="showSearch"
+        app:floatingSearch_close_search_on_keyboard_dismiss="true"/>
+    <LinearLayout
+        android:layout_marginTop="64dp"
+        android:layout_marginHorizontal="16dp"
+        android:orientation="horizontal"
+        android:id="@+id/_layout_ui_map_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.widget.Button
+            android:elevation="16dp"
+            android:layout_marginStart="4dp"
+            android:padding="8dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:background="@drawable/bg_white_conner_64"
+            android:textSize="12sp"
+            android:id="@+id/btn_location_1"
+            android:layout_marginHorizontal="4dp"
+            android:text="FPoly HCM cs1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <android.widget.Button
+            android:elevation="16dp"
+            android:layout_marginStart="4dp"
+            android:padding="8dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:background="@drawable/bg_white_conner_64"
+            android:textSize="12sp"
+            android:id="@+id/btn_location_2"
+            android:text="FPoly HCM cs2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <android.widget.Button
+            android:elevation="16dp"
+            android:layout_marginStart="4dp"
+            android:padding="8dp"
+            android:minHeight="0dp" android:minWidth="0dp"
+            android:background="@drawable/bg_white_conner_64"
+            android:textSize="12sp"
+            android:id="@+id/btn_location_3"
+            android:text="FPoly HCM cs3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
-</LinearLayout>
+
+</FrameLayout>

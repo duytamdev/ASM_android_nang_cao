@@ -3,34 +3,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="32dp"
+    android:paddingHorizontal="32dp"
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".activities.LoginActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintWidth_percent="0.9"
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/backtoschool" />
     <TextView
-        android:layout_marginTop="42dp"
+       android:textColor="#172B4D"
+        android:text="Login"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        android:text="Welcome,"
-        android:textSize="24sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:textSize="20dp"
-        android:text="Sign in to continue!"
+        android:textSize="25sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <com.google.android.material.textfield.TextInputLayout
-        android:hint="Username"
+        android:hint="Email"
         app:endIconTint="@color/hint_color"
         app:endIconMode="clear_text"
         app:hintTextColor="@color/hint_color"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
-            android:id="@+id/edt_username_login"
+            android:id="@+id/edt_email_login"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -49,7 +53,7 @@
             android:layout_height="match_parent"/>
     </com.google.android.material.textfield.TextInputLayout>
     <CheckBox
-
+        android:id="@+id/chk_remember"
         android:fontFamily="@font/robotomedium"
         android:layout_gravity="left"
         android:textColor="#CC000000"
@@ -59,27 +63,66 @@
         android:layout_height="wrap_content"/>
     <android.widget.Button
         android:id="@+id/btn_login"
-        android:paddingVertical="18dp"
+        android:paddingVertical="16dp"
         android:letterSpacing="0.1"
         android:text="Login"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/bg_blue_gradient_conner_8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <android.widget.Button
-        android:id="@+id/btn_login_fb"
-        android:paddingVertical="16dp"
-        android:gravity=""
-        android:paddingStart="100dp"
-        android:drawableStart="@drawable/ic_media_fb_22dp"
-        android:textAllCaps="false"
-        android:text="Connect with facebook"
-        android:background="@drawable/bg_conner_8"
-        android:textStyle="bold"
-        android:textColor="#3949AB"
-        android:layout_marginTop="8dp"
+    <TextView
+        android:textSize="12dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Or, login with..."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/btn_login_gg"
+            android:src="@drawable/ic_media_gg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.facebook.login.widget.LoginButton
+            android:layout_weight="1"
+            android:id="@+id/btn_login_fbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+         />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Don't have an account?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginStart="4dp"
+            android:id="@+id/tv_sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Join us"
+            android:textColor="@color/my_second"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
 </LinearLayout>

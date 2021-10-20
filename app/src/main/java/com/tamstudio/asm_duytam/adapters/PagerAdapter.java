@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
+import com.tamstudio.asm_duytam.fragments.AccountFragment;
 import com.tamstudio.asm_duytam.fragments.CourseFragment;
 import com.tamstudio.asm_duytam.fragments.MapsFragment;
 import com.tamstudio.asm_duytam.fragments.NewsFragment;
@@ -19,14 +20,15 @@ public class PagerAdapter extends FragmentStateAdapter {
     @Override
     public Fragment createFragment(int position) {
         switch (position){
-            case 1: return new CourseFragment();
+            case 1: return new NewsFragment();
             case 2: return new MapsFragment();
-            default: return new NewsFragment(); //  has case 0
+            case 3: return new AccountFragment();
+            default: return new CourseFragment(); //   case 0
         }
     }
 
     @Override
     public int getItemCount() {
-        return 3;// 3 fragment nên fix cứng luôn
+        return 4;
     }
 }

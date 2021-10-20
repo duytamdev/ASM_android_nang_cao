@@ -16,7 +16,7 @@ import com.smarteist.autoimageslider.SliderAnimations;
 import com.smarteist.autoimageslider.SliderView;
 import com.tamstudio.asm_duytam.R;
 import com.tamstudio.asm_duytam.activities.courseaction.MyCourseActivity;
-import com.tamstudio.asm_duytam.activities.courseaction.RegisterCoureActivity;
+import com.tamstudio.asm_duytam.activities.courseaction.RegisterCourseActivity;
 import com.tamstudio.asm_duytam.activities.courseaction.ScheduleActivity;
 import com.tamstudio.asm_duytam.adapters.SliderAdapter;
 
@@ -55,16 +55,19 @@ public class CourseFragment extends Fragment {
     }
     private void eventsCourse() {
         ivCourseRegister.setOnClickListener(view -> {
-            intent = new Intent(getContext(), RegisterCoureActivity.class);
+            intent = new Intent(getContext(), RegisterCourseActivity.class);
             startActivity(intent);
+            requireActivity().overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_left);
         });
         ivMyCourse.setOnClickListener(view -> {
             intent = new Intent(getContext(), MyCourseActivity.class);
             startActivity(intent);
+            requireActivity().overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_left);
         });
         ivSchedule.setOnClickListener(view -> {
             intent = new Intent(getContext(), ScheduleActivity.class);
             startActivity(intent);
+            requireActivity().overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_left);
         });
     }
 }

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "619869707248",
+    "project_id": "asm-android-adv",
+    "storage_bucket": "asm-android-adv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619869707248:android:2fe460c8b2d960452edb35",
+        "android_client_info": {
+          "package_name": "com.tamstudio.asm_duytam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619869707248-216gnha0e42sfetdsaq96n4mb7rgsata.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tamstudio.asm_duytam",
+            "certificate_hash": "329321cd4c40529925d26b104af3a3baee057797"
+          }
+        },
+        {
+          "client_id": "619869707248-rr2na7t6spuhf5ubblsfat0p48lc7dfp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcBRoHMAzuNU74FLWhrI_ZLk2SVTgV8PE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619869707248-rr2na7t6spuhf5ubblsfat0p48lc7dfp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

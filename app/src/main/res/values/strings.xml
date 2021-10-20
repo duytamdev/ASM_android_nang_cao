@@ -3,4 +3,9 @@
     <string name="action_course">Course</string>
     <string name="action_news">News</string>
     <string name="action_map">Map</string>
+    <string name="action_account">Account</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="keyHash">MpMhzUxAUpkl0msQSvOjuu4Fd5c=</string>
+    <string name="facebook_app_id">4361008173983002</string>
+    <string name="fb_login_protocol_scheme">fb4361008173983002</string>
 </resources>

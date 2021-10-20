@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_height="wrap_content">
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        app:dragEdge="right"
+        app:mode="same_level"
+        android:id="@+id/swipe_layout_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/layout_action_admin"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_update_schedule_item"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#4CAF50"
+                android:layout_width="70dp"
+                android:gravity="center"
+                android:text="Cập Nhật"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/tv_tv_delete_schedule_item"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#F44336"
+                android:layout_width="70dp"
+                android:gravity="center"
+                android:text="Xoá"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:paddingEnd="16dp"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:id="@+id/tv_date_schedule_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:paddingHorizontal="40dp"
+                android:paddingVertical="8dp"
+                android:text="12 /n 2022"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+            <TextView
+                android:textColor="@color/white"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:layout_alignEnd="@id/tv_date_schedule_item"
+                android:layout_alignStart="@id/tv_date_schedule_item"
+                android:layout_below="@id/tv_date_schedule_item"
+                android:id="@+id/tv_time_schedule_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:22 AM"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_alignTop="@id/tv_date_schedule_item"
+                android:layout_toRightOf="@id/tv_date_schedule_item"
+                android:textStyle="bold"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="22sp"
+                android:text="Android nâng cao"
+                android:id="@+id/tv_name_course_schedule_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_below="@id/tv_name_course_schedule_item"
+                android:layout_alignStart="@id/tv_name_course_schedule_item"
+                android:id="@+id/tv_room_schedule_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Phòng: 510" />
+
+            <TextView
+                android:layout_below="@id/tv_room_schedule_item"
+                android:layout_alignStart="@id/tv_name_course_schedule_item"
+                android:id="@+id/tv_meet_schedule_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@id/tv_room_schedule_item"
+                android:text="meet: azx-sdf" />
+            <TextView
+                android:id="@+id/tv_is_test_schedule_item"
+                android:textStyle="bold"
+                android:textColor="#F44336"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:text="Học Đi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+</com.google.android.material.card.MaterialCardView>

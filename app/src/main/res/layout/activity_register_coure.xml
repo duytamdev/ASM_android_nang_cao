@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/background_white"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activities.courseaction.RegisterCoureActivity">
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:paddingHorizontal="16dp"
+    android:paddingTop="8dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/tv_ui_course"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="22sp"
+        android:fontFamily="@font/robotomedium"
+        android:text="Danh Sách Lớp Học"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/tv_ui_course"
+        android:id="@+id/rv_course_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:backgroundTint="@color/blue"
+        app:tint="@color/white"
+        android:id="@+id/fab_add_course_list"
+        android:src="@drawable/ic_add"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

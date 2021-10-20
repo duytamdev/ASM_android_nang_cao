@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/action_news"
-        android:icon="@drawable/ic_news"
-        android:title="@string/action_news"/>
     <item android:id="@+id/action_course"
+        app:cnb_iconColor="#2096EA"
         android:icon="@drawable/ic_course"
         android:title="@string/action_course" />
+    <item android:id="@+id/action_news"
+        app:cnb_iconColor="#6537B7"
+        android:icon="@drawable/ic_news"
+        android:title="@string/action_news"/>
     <item android:id="@+id/action_map"
+        app:cnb_iconColor="#E71C66"
         android:icon="@drawable/ic_map"
         android:title="@string/action_map"/>
+    <item android:id="@+id/action_account"
+        app:cnb_iconColor="#4AAD50"
+        android:title="@string/action_account"
+        android:icon="@drawable/ic_person"/>
 </menu>

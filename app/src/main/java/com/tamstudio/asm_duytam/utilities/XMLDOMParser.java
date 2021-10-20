@@ -19,7 +19,7 @@ import javax.xml.parsers.ParserConfigurationException;
 public class XMLDOMParser {
     public Document getDocument(String xml)
     {
-        Document document = null;
+        Document document;
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try{
             DocumentBuilder db = factory.newDocumentBuilder();

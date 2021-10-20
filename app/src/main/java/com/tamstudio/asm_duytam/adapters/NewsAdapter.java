@@ -1,5 +1,6 @@
 package com.tamstudio.asm_duytam.adapters;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.squareup.picasso.Picasso;
+import com.bumptech.glide.Glide;
 import com.tamstudio.asm_duytam.R;
 import com.tamstudio.asm_duytam.model.News;
 
@@ -23,10 +24,12 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
     }
     ImyInterface imyInterface;
     View view;
+    Context context;
     List<News> list = new ArrayList<>();
 
-    public NewsAdapter(ImyInterface imyInterface) {
+    public NewsAdapter(Context context,ImyInterface imyInterface) {
         this.imyInterface = imyInterface;
+        this.context = context;
     }
 
     public void setData(List<News> list){
@@ -46,7 +49,8 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
         if(news==null) return;
         holder.tvTitle.setText(news.getTitle());
         holder.tvDescription.setText(news.getDescription());
-       // Picasso.get().load(news.getResImg()).into(holder.ivRes);// get img form internet
+
+        Glide.with(context).load(news.getResImg()).into(holder.ivRes);// get img form internet
         view.setOnClickListener(view1 -> {
             imyInterface.clickToReadNews(news);
         });

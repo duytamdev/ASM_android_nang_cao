@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_height="wrap_content">
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        app:dragEdge="right"
+        app:mode="same_level"
+        android:id="@+id/swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/layout_action_student"
+                android:layout_width="140dp"
+                android:layout_height="100dp">
+                <TextView
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tv_regis_course_item"
+                    android:background="#4CAF50"
+                    android:textColor="@color/white"
+                    android:text="Đăng Kí"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_action_admin"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp">
+                <TextView
+                    android:id="@+id/tv_update_course_item"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="#4CAF50"
+                    android:layout_width="70dp"
+                    android:gravity="center"
+                    android:text="Cập Nhật"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:id="@+id/tv_delete_course_item"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="#F44336"
+                    android:layout_width="70dp"
+                    android:gravity="center"
+                    android:text="Xoá"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+        <RelativeLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp"
+                android:id="@+id/card_img_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_launcher_background"
+                    android:id="@+id/iv_resImgCourse"
+                    android:layout_width="130dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/tv_code_course_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/card_img_course"
+                android:text="Mã Lớp: CP16301"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_name_course_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_code_course_item"
+                android:layout_toRightOf="@id/card_img_course"
+                android:fontFamily="sans-serif-medium"
+                android:text="Android Nâng Cao"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textSize="12sp"
+                android:id="@+id/tv_name_teacher_course_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name_course_item"
+                android:layout_toRightOf="@id/card_img_course"
+                android:text="Tên giảng viên" />
+        </RelativeLayout>
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+</com.google.android.material.card.MaterialCardView>
