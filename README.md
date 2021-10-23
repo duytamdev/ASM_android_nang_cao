@@ -15,8 +15,13 @@ Tài khoản Admin mặt định: admin@app.com , admin
    1. Android Studio
    2. JDK 1.8+
    3. Sqlite
----------------------------------------  </br>
-một số hình ảnh của ứng dụng: 
+<h2>Công nghệ sự dụng </h2>
+1. Android Studio <br/>
+2. Firebase Auth <br/>
+3. Sqlite <br/>
+4. Google Map API <br/>
+
+<h2>Một số hình ảnh của ứng dụng </h2>
 
 <img src="/screenshort/login.png" width="25%" height="25%"> <img src="/screenshort/signup.png" width="25%" height="25%"> <img src="/screenshort/home.png" width="25%" height="25%">
 
