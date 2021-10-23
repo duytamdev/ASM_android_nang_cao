@@ -12,9 +12,9 @@ Tài khoản Admin mặt định: admin@app.com , admin
 5. Chia sẽ bài viết lên facebook  </br>
 6. database local: Sqlite  </br>
 <h2>Công nghệ sự dụng </h2>
-   1. Android Studio
-   2. JDK 1.8+
-   3. Sqlite
+   1. Android Studio </br>
+   2. JDK 1.8+ </br>
+   3. Sqlite </br>
 <h2>Công nghệ sự dụng </h2>
 1. Android Studio <br/>
 2. Firebase Auth <br/>
