@@ -1,4 +1,4 @@
-# ASM_android_nang_cao
+# Manage school calendar app
 Ứng dụng giúp cho sinh viên theo dõi lịch học, lịch thi, cập nhật tin tức trường, bản đồ
 
 Tài khoản Admin mặt định: admin@app.com , admin
